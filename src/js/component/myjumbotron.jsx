@@ -13,7 +13,7 @@ export const MyJumbotron = props => (
 			</p>
 		</div>
 		<p>
-			<Button variant="warning">Learn more about us</Button>
+			<Button variant="warning" href="About.html">Learn more about us</Button>
 		</p>
 	</Jumbotron>
 );
