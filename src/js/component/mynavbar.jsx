@@ -39,7 +39,6 @@ export const MyNavbar = props => {
 		</Navbar>
 	);
 };
-
 MyNavbar.propTypes = {
 	webName: PropTypes.string
 };
