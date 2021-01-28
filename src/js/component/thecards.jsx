@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import Card from "react-bootstrap/Card";
 
-
 export const TheCards = props => {
 	console.log(props);
 	return (
@@ -18,7 +17,6 @@ export const TheCards = props => {
 		</Card>
 	);
 };
-
 TheCards.propTypes = {
 	img: PropTypes.string,
 	title: PropTypes.string,
