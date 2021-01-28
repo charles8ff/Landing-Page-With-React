@@ -47,9 +47,9 @@ const addBooksHTML = () => {
 export function Home() {
 	return (
 		<Fragment>
-        <MyNavbar />
-        <MyJumbotron />;
-        <CardDeck className="theCardDeck">{addBooksHTML()}</CardDeck>
+			<MyNavbar />
+			<MyJumbotron />;
+			<CardDeck className="theCardDeck">{addBooksHTML()}</CardDeck>
 		</Fragment>
 	);
 }

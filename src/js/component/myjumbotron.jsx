@@ -4,8 +4,8 @@ import Button from "react-bootstrap/Button";
 
 export const MyJumbotron = props => (
 	<Jumbotron className="theJumbo">
-		<div>
-			<h1>Enjoy your stay at The Book Basement </h1>
+		<div className="jumboText">
+			<h1 className="jumboTitle">ENJOY YOUR STAY AT THE BOOK BASEMENT</h1>
 			<p>
 				Greetings, tired traveller! Get comfy, grab a drink, and pick a
 				whole lot of books to get rolling into the fantasies only books
@@ -13,7 +13,9 @@ export const MyJumbotron = props => (
 			</p>
 		</div>
 		<p>
-			<Button variant="warning" href="About.html">Learn more about us</Button>
+			<Button variant="warning" href="About.html">
+				Learn more about us
+			</Button>
 		</p>
 	</Jumbotron>
 );
