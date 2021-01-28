@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 //include images into your bundle
+import { MyJumbotron } from "./myjumbotron.jsx";
 import PropTypes from "prop-types";
 //include navbar
 import { MyNavbar } from "./mynavbar.jsx";
@@ -46,8 +47,9 @@ const addBooksHTML = () => {
 export function Home() {
 	return (
 		<Fragment>
-			<MyNavbar />
-			<CardDeck className="theCardDeck">{addBooksHTML()}</CardDeck>
+        <MyNavbar />
+        <MyJumbotron />;
+        <CardDeck className="theCardDeck">{addBooksHTML()}</CardDeck>
 		</Fragment>
 	);
 }
