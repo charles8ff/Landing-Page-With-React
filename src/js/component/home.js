@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-
 //include images into your bundle
 import PropTypes from "prop-types";
 //include navbar
@@ -44,7 +43,6 @@ const addBooksHTML = () => {
 		/>
 	));
 };
-
 export function Home() {
 	return (
 		<Fragment>
