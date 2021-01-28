@@ -1,5 +1,29 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Kavivanar&family=Noto+Serif+JP:wght@300&display=swap');
 
+.TheNavbar{
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+}
+.bookimage{
+    width: 2rem;
+    height: 2rem;
+}
+.TheNavLink{
+    margin: 1rem;
+}
+.TheNavLink:first-of-type{
+    margin-left: 3rem;
+}
+.allBooks > img{
+    height: 40rem;
+}
+.allBooks{
+    background-color: grayscale($color: #b5c4d4);
+}
+.theCardDeck{
+    margin: 1rem;
+}
 .theJumbo{
     color: whitesmoke;
     font-size: x-large;
